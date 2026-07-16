@@ -1,4 +1,4 @@
-name: base
+name: kaggle-titanic
 channels:
   - defaults
   - conda-forge
