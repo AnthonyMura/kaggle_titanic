@@ -1,0 +1,8 @@
+,model_name,best_parameters,accuracy,base_score
+6,Random Forest,"{'classifier__max_depth': None, 'classifier__max_features': 'sqrt', 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 300}",0.8417487916640513,0.828221706107589
+1,SVC,"{'classifier__estimator__C': 1.0, 'classifier__estimator__gamma': 'scale'}",0.8383717280773334,0.8327663046889711
+2,KNN,"{'classifier__n_neighbors': 5, 'classifier__p': 1, 'classifier__weights': 'uniform'}",0.8339087314041805,0.8282530914569077
+5,Decision tree,"{'classifier__criterion': 'gini', 'classifier__max_depth': 10, 'classifier__min_samples_leaf': 4, 'classifier__min_samples_split': 10}",0.8171112924486851,0.7519050907036595
+0,LogisticRegression_SAGA,"{'classifier__C': 0.1, 'classifier__l1_ratio': 0.5}",0.7968551879982424,0.8002322515849603
+3,LDA,"{'classifier__shrinkage': None, 'classifier__solver': 'svd'}",0.7912309334002887,0.7889962965287804
+4,GNB,{'classifier__var_smoothing': 1e-09},0.786761659657272,0.7822986629841191
